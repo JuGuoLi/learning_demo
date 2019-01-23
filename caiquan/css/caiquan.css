@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  padding:0;
+}
+.content{
+  background: pink;
+  border:1px solid black;
+  width: 100%;
+}
+.content img{
+  width:100px;
+  height:100px;
+}
+section{
+  border:1px solid blue;
+  margin:0 auto;
+  width:1000px;
+  overflow: hidden;
+}
+#shitou,#jiandao,#bu{
+  float:left;
+  margin-left:15px;
+}
+#ai{
+  float:right;
+  margin-right:15px;
+}
+p{
+  font-size:60px;
+  font-weight:bold;
+  color:red;
+  text-align: center;
+  line-height:100px;
+}
+button{
+  width:100%;
+  background:#ccc;
+  border-color: transparent;
+  font-size:25px;
+  font-weight: bold;
+}
